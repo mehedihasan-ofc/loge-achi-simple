@@ -1,0 +1,30 @@
+.cart {
+    width: 264px;
+    padding: 25px;
+    background: rgba(255, 153, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: -1;
+}
+
+.cart h5 {
+    color: #1C2B35;
+    /* margin-top: 80px;
+    margin-bottom: 25px; */
+    margin: 25px 0;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.cart p {
+    color: #2A414F;
+    margin: 20px 0;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.cart h6 {
+    color: #0E161A;
+    font-weight: 400;
+    font-size: 21px;
+}

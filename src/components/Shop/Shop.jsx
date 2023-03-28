@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card';
+import Cart from '../Cart/Cart';
 
 const Shop = () => {
 
@@ -20,9 +21,9 @@ const Shop = () => {
     }
 
     return (
-        <div className='container my-4'>
+        <div className='container'>
             <div className="row">
-                <div className="col-md-9">
+                <div className="col-md-9 my-4">
 
                     <h2>Just For You</h2>
 
@@ -39,9 +40,8 @@ const Shop = () => {
                     </div>
 
                 </div>
-                <div className="col-md-3 bg-warning p-3 p-4">
-                    <h2>Order Summary</h2>
-                    <h5 className='my-3'>Cart Items: {cart.length}</h5>
+                <div className="col-md-3">
+                    <Cart cart={cart}></Cart>
                 </div>
             </div>
         </div>
